@@ -36,6 +36,10 @@ This command starts a local Ethereum network using Hardhat. The network runs on 
 ```
 yarn deploy
 ```
+If want to deploy on sepolia for example run:
+```
+yarn deploy --network sepolia
+```
 
 This command deploys a test smart contract to the local network. The contract is located in `packages/hardhat/contracts` and can be modified to suit your needs. The `yarn deploy` command uses the deploy script located in `packages/hardhat/deploy` to deploy the contract to the network. You can also customize the deploy script.
 
